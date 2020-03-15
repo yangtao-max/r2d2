@@ -32,3 +32,13 @@
 
 ### 删除数据库
 `psql -U pg_yt ytdatebase`
+
+### SHOW databases,SHOW tables,Describe table
+``` sql
+//show databases
+SELECT datname from pg_database;
+//show tables
+SELECT table_name FROM information_schema.tables WHERE table_schema = 'public';
+//desc table
+SELECT column_name FROM information_schema.columns WHERE table_name ='table_name';
+```
