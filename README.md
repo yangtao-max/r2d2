@@ -1,4 +1,4 @@
-# Knowledage
+# Knowledge
 
 ### [Go Mod](base/go_mod.md)
 ### [PostgreSql](gorm/PostgreSQL.md)
