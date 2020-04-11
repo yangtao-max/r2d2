@@ -65,5 +65,5 @@ func main() {
 
 	}
 
-	log.Println("Successfully saved filename.csv")
+	log.Println("Successfully saved filename.csv.")
 }
