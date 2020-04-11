@@ -27,7 +27,6 @@ func main() {
 
 	err = minioClient.MakeBucket(bucketName, location)
 	if err != nil {
-		// 检查存储桶是否已经存在。
 		exists, err := minioClient.BucketExists(bucketName)
 		if err == nil && exists {
 			log.Printf("We already own %s\n", bucketName)
